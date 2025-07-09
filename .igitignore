@@ -1,0 +1,66 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+.Python
+env/
+venv/
+ENV/
+.venv/
+# Jupyter
+.ipynb_checkpoints
+# macOS
+.DS_Store
+# VS Code
+.vscode/
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+# MongoDB/DB dumps
+*.mongodb
+*.bson
+*.sql
+*.sqlite3
+db.sqlite3
+# Redis
+dump.rdb
+# Sensitive files
+.env
+.env.*
+*.env
+.senv
+.envrc
+*.key
+*.pem
+*.crt
+*.pfx
+*.cer
+secrets.*
+# Logs
+*.log
+logs/
+# Email templates (if dynamic)
+templates/emails/*.log
+
+# FastAPI/uvicorn reload artifacts
+*.pid
+*.db
+
+# Ignore coverage reports
+htmlcov/
+.coverage
+coverage.*
+
+# Ignore IDE files
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# Ignore test and temp output
+test_output/
+tmp/
+temp/
